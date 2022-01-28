@@ -30,7 +30,7 @@ $cname = $_POST['cname'];
 $vname = $_POST['vname'];
 $location = $_POST['location'];
 
-$sql = "INSERT INTO chargesheet (Crid, Date, Criminal_name, Victim_name, Location)
+$sql = "INSERT INTO chargesheet (Crid, Date, Criminal_name, Victim_name, Crime_location)
                                        VALUES('$crid','$date','$cname','$vname','$location'); ";
 
                    $success = mysqli_query($dbcon,$sql);
