@@ -35,7 +35,7 @@ include('dbconnect.php');
 <div class="col-md-6">
 	<div class="panel panel-success">
 		<div class="panel-heading">
-			<h3 class="panel-title">Please Login Here</h3>
+			<h3 class="panel-title">Login Here</h3>
 		</div>
 		<div class="panel-body">
 			<form class="form-horizontal" action="logincheck.php" method="post" role="form" >

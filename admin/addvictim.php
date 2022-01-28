@@ -2,7 +2,7 @@
 
 include('header.php');
 include('dbconnect2.php');
-
+$profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Api&P=0&w=414&h=155";
  ?>
 
 
@@ -18,11 +18,22 @@ include('dbconnect2.php');
 
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
-		<ul class="list-group" id="myinfo" >
+	<div class="panel panel-inverse">
+			
+			 
+			<style type="text/css">
+		   body
+		   {
+			   background-image:url('<?php echo $profpic;?>');
+		   }
+		   </style>
+		   
+	   </div>
+		<!-- <ul class="list-group" id="myinfo" >
 
 			<li class="list-group-item" id="mylist"></li>
 
-		</ul>
+		</ul> -->
 			<div class="panel panel-success">
 					  	<div class="panel-heading">
 		

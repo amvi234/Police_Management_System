@@ -4,6 +4,7 @@
 <?php
 session_start(); 
 include('header.php');
+$profpic = "https://wallpaperaccess.com/full/1900851.png";
 include('dbconnect.php');
     if(isset($_SESSION['staffid'])){
 
@@ -11,16 +12,6 @@ include('dbconnect.php');
     	
       header("Location: admin/");
     }
-     elseif($_SESSION['role']=='CID'){
-    	
-      header("Location: cid/");
-    }
-    elseif($_SESSION['role']=='NCO'){
-    	
-      header("Location: officer/");
-    }
-		
-      
     }
 
 
@@ -33,6 +24,19 @@ include('dbconnect.php');
 
 <div class="col-md-3"></div>
 <div class="col-md-6">
+<div class="panel panel-inverse">
+			<div>
+				<h1 >CRIMINAL MANAGEMENT SYSTEM</h1>
+</div>
+			 
+			<style type="text/css">
+		   body
+		   {
+			   background-image:url('<?php echo $profpic;?>');
+		   }
+		   </style>
+		   
+	   </div>
 	<div class="panel panel-success">
 		<div class="panel-heading">
 			<h3 class="panel-title">Please Login Here</h3>
