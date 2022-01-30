@@ -74,7 +74,7 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 						  <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Case_id</label>
+					    		<label for="">Criminal_id</label>
 					    		<input type="text" name="crid" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>

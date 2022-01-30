@@ -24,14 +24,14 @@ $output = array('error' => false);
 //  $status=$_POST['status']; 
  
  $crid=$_POST['crid'];
- $date=$_POST['date'];
+ 
 //  $username=$_POST['cid']; 
 $type = $_POST['type'];
-$location = $_POST['location'];
+
 // $crid = $_POST['crid'];
 
-$sql = "INSERT INTO Crime (Crid, Date, Crime_type, Location)
-                                       VALUES('$crid','$date','$type','$location'); ";
+$sql = "INSERT INTO Crime (crime_id, crime_type )
+                                       VALUES('$crid','$type'); ";
 
                    $success = mysqli_query($dbcon,$sql);
 
