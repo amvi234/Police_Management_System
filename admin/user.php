@@ -15,7 +15,7 @@ include('header.php');
 			<div class="panel panel-success">
 			 	<div class="panel-heading">
 			 		<h3 class="panel-title">
-			 			Case List
+			 			Case kkk
 			 		</h3>
 			 	</div>
 <div id="trans-table">
