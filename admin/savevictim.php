@@ -4,6 +4,8 @@
 require_once('../database/Database.php');
 $db = new Database(); 
 
+
+
 if(session_status() == PHP_SESSION_NONE)
 {
   include('session.php');
@@ -14,6 +16,8 @@ if(session_status() == PHP_SESSION_NONE)
 
 //array created to handle the error msgs
 $errors = array();
+
+
 
 // array to hold the json econded data
 $output = array('error' => false);

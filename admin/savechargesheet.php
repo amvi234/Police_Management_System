@@ -49,3 +49,5 @@ $sql = "INSERT INTO chargesheet (ch_id, cr_id, v_id, crime_id,date)
         
 
         ?>
+
+
