@@ -28,11 +28,11 @@ $output = array('error' => false);
 //  $username=$_POST['cid']; 
 $gender = $_POST['gender'];
 $age = $_POST['age'];
-$crid = $_POST['crid'];
+
 $vid = $_POST['vid'];
 
-$sql = "INSERT INTO Victim (Crid, FName, LName, Gender, Age, Victim_id)
-                                       VALUES('$crid','$fname','$lname','$gender','$age','$vid'); ";
+$sql = "INSERT INTO Victim ( FName, LName, Gender, Age, Victim_id)
+                                       VALUES('$fname','$lname','$gender','$age','$vid'); ";
 
                    $success = mysqli_query($dbcon,$sql);
 
