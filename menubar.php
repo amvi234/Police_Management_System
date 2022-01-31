@@ -3,7 +3,7 @@
 		<div class="panel panel-success">
 			<div class="panel-heading">
 				
-				<center><h4>CRIMINAL MANAGEMENT SYSTEM</h4></center>
+				<center><h4>CRIMI</h4></center>
 			</div>
 			<div class="panel-body">
 				<div class="row">
@@ -22,12 +22,12 @@
 								<h3 class="panel-title"> <a href="addcompl.php">
 									<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
   
-								New Case</a>
+								</a>
 								
 								</h3>
 							</div>
 							
-						</div>
+						</div> 
 					</div>
 					
 

@@ -71,14 +71,20 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 					    		<input type="text" name="age" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
+						  <!-- <div class="form-row">
+							<div class="col-md-6">
+					  		<div class="form-group">
+					    		<label for="">Crime_id</label>
+					    		<input type="text" name="crid" class="form-control" id="staffid" required="">
+					  		</div>
+					  	</div> -->
 						  <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Case_id</label>
-					    		<input type="text" name="crid" class="form-control" id="staffid" required="">
+					    		<label for="">Victim_id</label>
+					    		<input type="text" name="vid" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
-
 					   		<div class="col-md-6">
 					  		<div class="form-group">
 

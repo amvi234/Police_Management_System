@@ -7,7 +7,7 @@ include('header.php');
 $profpic = "https://wallpaperaccess.com/full/1900851.png";
 include('dbconnect.php');
     if(isset($_SESSION['staffid'])){
-
+ 
     	if($_SESSION['role']=='Admin'){
     	
       header("Location: admin/");

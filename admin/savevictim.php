@@ -4,6 +4,8 @@
 require_once('../database/Database.php');
 $db = new Database(); 
 
+
+
 if(session_status() == PHP_SESSION_NONE)
 {
   include('session.php');
@@ -14,6 +16,8 @@ if(session_status() == PHP_SESSION_NONE)
 
 //array created to handle the error msgs
 $errors = array();
+
+
 
 // array to hold the json econded data
 $output = array('error' => false);
@@ -28,10 +32,11 @@ $output = array('error' => false);
 //  $username=$_POST['cid']; 
 $gender = $_POST['gender'];
 $age = $_POST['age'];
-$crid = $_POST['crid'];
 
-$sql = "INSERT INTO victim (Crid, FName, LName, Gender, Age)
-                                       VALUES('$crid','$fname','$lname','$gender','$age'); ";
+$vid = $_POST['vid'];
+
+$sql = "INSERT INTO Victim ( FName, LName, Gender, Age, Victim_id)
+                                       VALUES('$fname','$lname','$gender','$age','$vid'); ";
 
                    $success = mysqli_query($dbcon,$sql);
 

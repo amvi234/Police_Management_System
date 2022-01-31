@@ -49,28 +49,28 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 					    		<input type="text" name="crid" class="form-control" id="staffid" required="" >
 					  		</div>
 					  	</div>
-					  	<div class="col-md-6">
+					  	<!-- <div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Date of reporting:</label>
+					    		<label for="">Date of Crime:</label>
 					    		<input type="text" name="date" class="form-control" id="staffid" required="" >
 					  		</div>
 					  	</div>
-				</div>
+				</div> -->
 
-						<div class="form-row">
+						 <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
 					    		<label for="">Type of Crime</label>
 					    		<input type="text" name="type" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
-						  <div class="form-row">
+						  <!-- <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
 					    		<label for="">Location</label>
 					    		<input type="text" name="location" class="form-control" id="staffid" required="">
 					  		</div>
-					  	</div>
+					  	</div>  -->
 						  
 
 					   		<div class="col-md-6">

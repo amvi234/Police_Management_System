@@ -45,14 +45,14 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 						<div class="form-row">
                         <div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Crime id:</label>
-					    		<input type="text" name="crid" class="form-control" id="staffid" required="" >
+					    		<label for="">Chargesheet id:</label>
+					    		<input type="text" name="chid" class="form-control" id="staffid" required="" >
 					  		</div>
 					  	</div>
 					  	<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Date of reporting:</label>
-					    		<input type="text" name="date" class="form-control" id="staffid" required="" >
+					    		<label for="">Criminal_id:</label>
+					    		<input type="text" name="cid" class="form-control" id="staffid" required="" >
 					  		</div>
 					  	</div>
 				</div>
@@ -60,23 +60,23 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 						<div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Criminal Name</label>
-					    		<input type="text" name="cname" class="form-control" id="staffid" required="">
+					    		<label for="">Victim_id</label>
+					    		<input type="text" name="vid" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
 						  <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Victim Name</label>
-					    		<input type="text" name="vname" class="form-control" id="staffid" required="">
+					    		<label for="">Crime_id</label>
+					    		<input type="text" name="crid" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
 						  
                           <div class="form-row">
 							<div class="col-md-6">
 					  		<div class="form-group">
-					    		<label for="">Location</label>
-					    		<input type="text" name="location" class="form-control" id="staffid" required="">
+					    		<label for="">Date</label>
+					    		<input type="text" name="date" class="form-control" id="staffid" required="">
 					  		</div>
 					  	</div>
 					   		<div class="col-md-6">

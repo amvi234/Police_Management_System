@@ -31,7 +31,7 @@ include('header.php');
 	        
 	        <th><center> Location</center></th>
 	        
-	    </tr>
+	    </tr> 
 	</thead>
     <tbody>
     	<?php

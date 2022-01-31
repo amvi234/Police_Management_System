@@ -23,15 +23,15 @@ $output = array('error' => false);
 //  $password=$_POST['pwd']; 
 //  $status=$_POST['status']; 
  
- $crid=$_POST['crid'];
- $date=$_POST['date'];
+ $chid=$_POST['chid'];
+ $cid=$_POST['cid'];
 //  $username=$_POST['cid']; 
-$cname = $_POST['cname'];
-$vname = $_POST['vname'];
-$location = $_POST['location'];
+$vid = $_POST['vid'];
+$crid = $_POST['crid'];
+$date = $_POST['date'];
 
-$sql = "INSERT INTO chargesheet (Crid, Date, Criminal_name, Victim_name, Crime_location)
-                                       VALUES('$crid','$date','$cname','$vname','$location'); ";
+$sql = "INSERT INTO chargesheet (ch_id, cr_id, v_id, crime_id,date)
+                                       VALUES('$chid','$cid','$vid','$crid','$date'); ";
 
                    $success = mysqli_query($dbcon,$sql);
 
@@ -49,3 +49,5 @@ $sql = "INSERT INTO chargesheet (Crid, Date, Criminal_name, Victim_name, Crime_l
         
 
         ?>
+
+
