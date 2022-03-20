@@ -2,18 +2,16 @@
 
 include('header.php');
 include('dbconnect2.php');
-$profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Api&P=0&w=414&h=155";
+$profpic = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2sptFoHk-QGLdYY-aaLu5Ty627YM26ndkAA&usqp=CAU";
  ?>
 
 
 <div class="container-fluid">
 	
 
-      <?php include('menubar.php')?> 
-	<?php // include('menubar1.php');
-
+      <?php 
+	  include('menubar.php')?> 
 	
-	?>
 <div class="container-fluid">
 
 	<div class="col-md-2"></div>
@@ -25,15 +23,13 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 		   body
 		   {
 			   background-image:url('<?php echo $profpic;?>');
+			   background-size: 1500px;
+			   /* width: 300px; */
+ 			 height: 300px;
 		   }
 		   </style>
 		   
-	   </div>
-		<!-- <ul class="list-group" id="myinfo" >
-
-			<li class="list-group-item" id="mylist"></li>
-
-		</ul> -->
+	   
 			<div class="panel panel-success">
 					  	<div class="panel-heading">
 		
@@ -55,7 +51,7 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 					    		<input type="text" name="last" class="form-control" id="staffid" required="" >
 					  		</div>
 					  	</div>
-				</div>
+				
 
 						<div class="form-row">
 							<div class="col-md-6">
