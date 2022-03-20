@@ -2,8 +2,8 @@
 
 include('header.php');
 include('dbconnect2.php');
-$profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Api&P=0&w=414&h=155";
- ?>
+$profpic="https://images.assettype.com/freepressjournal/2021-09/b01b0a20-20f1-4b01-9793-5ed3dbf93a55/crime_scene_1.jpg?rect=0%2C0%2C3900%2C2048&w=1200&auto=format%2Ccompress&ogImage=true";
+?>
 
 
 <div class="container-fluid">
@@ -25,6 +25,7 @@ $profpic = "https://tse3.mm.bing.net/th?id=OIP.IVSgsU-jiy3EyE0c__L9IgHaCx&pid=Ap
 		   body
 		   {
 			   background-image:url('<?php echo $profpic;?>');
+			   background-size:1400px;
 		   }
 		   </style>
 		   

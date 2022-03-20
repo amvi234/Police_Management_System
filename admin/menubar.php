@@ -93,34 +93,59 @@
 							
 						</div>
 					</div>
-					<!-- <div class="col-md-3">
+					<div class="col-md-3">
 						<div class="panel panel-info">
 							<div class="panel-heading">
-								<h3 class="panel-title"> <a href="user.php">
-									<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+								<h3 class="panel-title"> <a href="viewcriminal.php">
+									<span class="glyphicon glyphicon" aria-hidden="true"></span>
   
-								View Users</a>
+								View Criminals</a>
 								
 								</h3>
 							</div>
 							
 						</div>
-					</div> -->
-					<!-- <div class="col-md-3">
+					</div>
+					<div class="col-md-3">
 						<div class="panel panel-info">
 							<div class="panel-heading">
-								<h3 class="panel-title"> <a href="caseview.php">
-									<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+								<h3 class="panel-title"> <a href="viewvictim.php">
+									<span class="glyphicon glyphicon" aria-hidden="true"></span>
   
-								Crime details</a>
+								View Victims</a>
 								
 								</h3>
 							</div>
 							
 						</div>
-					</div> -->
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"> <a href="viewcrime.php">
+									<span class="glyphicon glyphicon" aria-hidden="true"></span>
+  
+								View Crimes</a>
+								
+								</h3>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title"> <a href="viewchargesheet.php">
+									<span class="glyphicon glyphicon" aria-hidden="true"></span>
+  
+								View Chargesheet</a>
+								
+								</h3>
+							</div>
+							
+						</div>
+					</div>
 					
-
 					
 					
 				</div>

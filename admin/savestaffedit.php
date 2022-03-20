@@ -17,7 +17,7 @@ mysqli_query($dbcon,"update Criminal set FName='$fname', LName='$lname', Gender=
 
 	
 	 echo "<script type='text/javascript'>alert('Staff Edtted');
-	  document.location='index.php'</script>";
+	  document.location='addvictim.php'</script>";
 	  
 
  ?>

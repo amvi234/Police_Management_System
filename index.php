@@ -4,6 +4,8 @@
 <?php
 session_start(); 
 include('header.php');
+
+
 include('dbconnect.php');
     if(isset($_SESSION['staffid'])){
 
@@ -11,14 +13,7 @@ include('dbconnect.php');
     	
       header("Location: admin/");
     }
-     elseif($_SESSION['role']=='CID'){
-    	
-      header("Location: cid/");
-    }
-    elseif($_SESSION['role']=='NCO'){
-    	
-      header("Location: officer/");
-    }
+    
 		
       
     }
@@ -97,3 +92,6 @@ include('dbconnect.php');
 
 </body>
 </html>
+<?php
+include('footer.php')
+?>

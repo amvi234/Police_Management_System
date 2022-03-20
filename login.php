@@ -33,6 +33,7 @@ include('dbconnect.php');
 		   body
 		   {
 			   background-image:url('<?php echo $profpic;?>');
+			   background-size:1500px;
 		   }
 		   </style>
 		   
