@@ -1,6 +1,6 @@
 # Criminal Management System
 
-* This is a simple web-based open source software written in PHP and JavaScript. This was specifically written for school or Crime organization. You can easily install this system in your own server.
+* This is a simple web-based open source software written in PHP and JavaScript. This was specifically written for Police or Crime organization. You can easily install this system in your own server.
 
 * If you find any bug or added new feature feel free to send a pull request.
 
@@ -11,7 +11,8 @@
 # Demo
 * Username - github_user
 * Password - guser
-* Feature of Criminal Management System
+
+# Feature of Criminal Management System
 * Add Crime related Information
 * Add Criminal details
 * Add Chargesheet details
